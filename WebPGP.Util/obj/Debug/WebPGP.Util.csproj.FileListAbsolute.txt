@@ -5,4 +5,3 @@ C:\Projects\WebPGP\WebPGP.Util\obj\Debug\WebPGP.Util.dll
 C:\Projects\WebPGP\WebPGP.Util\obj\Debug\WebPGP.Util.pdb
 C:\Projects\WebPGP\WebPGP.Util\bin\Debug\BouncyCastle.Crypto.dll
 C:\Projects\WebPGP\WebPGP.Util\obj\Debug\WebPGP.Util.csproj.CopyComplete
-C:\Projects\WebPGP\WebPGP.Util\obj\Debug\WebPGP.Util.csprojAssemblyReference.cache
