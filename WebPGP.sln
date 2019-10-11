@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPGP", "WebPGP\WebPGP.csproj", "{01CB47D8-8468-4054-8394-7E3552DCCE90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPGP.Util", "WebPGP.Util\WebPGP.Util.csproj", "{93B87687-E76A-44BD-B5AC-37DA8A366085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01CB47D8-8468-4054-8394-7E3552DCCE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CB47D8-8468-4054-8394-7E3552DCCE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CB47D8-8468-4054-8394-7E3552DCCE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CB47D8-8468-4054-8394-7E3552DCCE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B87687-E76A-44BD-B5AC-37DA8A366085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B87687-E76A-44BD-B5AC-37DA8A366085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B87687-E76A-44BD-B5AC-37DA8A366085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B87687-E76A-44BD-B5AC-37DA8A366085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8354E42E-4B07-4717-A757-E468ADE2146A}
+	EndGlobalSection
+EndGlobal

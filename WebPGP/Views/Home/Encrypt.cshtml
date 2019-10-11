@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Encrypt";
+}
+<div class="row">
+    @using (Html.BeginForm("Encrypt", "Home", FormMethod.Post, new { @class = "form-inline" }))
+    {
+        <div class="col-md-12">
+            <input name="InputFilePath" type="text" class="form-control" placeholder="Input File Path" style="width:100%;" />
+        </div>
+        <div class="col-md-6">
+            <textarea class="form-control" placeholder="Private Key" style="width: 100%;" name="PrivateKey">@ViewBag.PrivateKey</textarea>
+        </div>
+        <div class="col-md-6">
+            <textarea class="form-control" placeholder="Public Key" style="width: 100%;" name="PublicKey">@ViewBag.PublicKey</textarea>
+        </div>
+        <div class="col-md-12">
+            <input name="PassPhrase" class="form-control" type="password" placeholder="Passphrase" value="@ViewBag.PassPhrase" />
+            <button type="submit" class="form-control">Encrypt</button>
+        </div>
+    }
+</div>

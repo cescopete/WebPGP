@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "KeyGen";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @class = "form-inline" }))
+        {
+            <input name="UserName" class="form-control" type="text" placeholder="Username" value="@ViewBag.UserName" />
+            <input name="PassPhrase" class="form-control" type="password" placeholder="Passphrase" value="@ViewBag.PassPhrase" />
+            <button type="submit" class="form-control">Generate</button>
+        }
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <textarea class="form-control" placeholder="Private Key" rows="24" readonly>@ViewBag.PrivateKey</textarea>
+    </div>
+    <div class="col-md-6">
+        <textarea class="form-control" placeholder="Public Key" rows="24" readonly>@ViewBag.PublicKey</textarea>
+    </div>
+</div>
